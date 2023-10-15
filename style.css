@@ -1,0 +1,23 @@
+*{ margin:0; padding: 0;box-sizing: border-box; font-family: "gilroy";}
+html, body{ height: 100%;width: 100%;}
+#main{ width: 100%;height: 100vh;}
+#back{ width: 100%;height: 100vh;background-color: red;}
+#back img{ width: 100%;height: 100%;object-fit:cover;background-size: cover;}
+#top{position: absolute;left: 0;top: 0; width: 100%;height: 100vh;pointer-events: none;}
+#workingarea{ width: 80%;height: 100vh;max-width:1920px ;margin: 0 auto;position: relative;}
+#nav{ padding: 40px 0;display: flex;justify-content: space-between;align-items: center;}
+#nav img{ height: 60px;}
+#nav a{ color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-decoration: none;text-transform: uppercase;font-weight: 600;font-size: 13px;pointer-events: all;}
+#nleft ,#nright{ display: flex;align-items: center;gap: 50px;}
+#hero{ width: 100%;display: flex;justify-content: space-between;position: absolute;top: 50%;left: 0;transform: translate(0%,-50%);}
+#heroleft{ min-width: 50%;;}
+#heroright{ width: 20%;;;color: white;display: flex;flex-direction: column;align-items: flex-end;}
+#heroleft .elem h1{font-family: "kajiro";color: white;font-weight: 100;font-size: 11vw ; position: absolute;top: 100%;left: 0;}
+#heroleft .elem h1:nth-child(1){ top: 0;}
+#heroleft .elem{ height: 9vw;overflow: hidden;position: relative;}
+#heroleft button{ padding: 0.8vw 3vw; font-size: 3vw;font-family: "kajiro";margin-top: 1vw;pointer-events: all;}
+#heroright p{text-align: right;font-size:12px;font-weight: 300; }
+#heroright #imageDiv{ width: 100%;height:170px;background-image: url(https://scontent.fjkr1-1.fna.fbcdn.net/v/t39.30808-6/333109576_607010174109105_1276642229906319708_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1lSpu8KTFrUAX_p0uYA&_nc_ht=scontent.fjkr1-1.fna&oh=00_AfDb3l3R2xzNdZH3rZW6jiLkqscSKtFqgs_CW2Og6Kiq-g&oe=6530983A);margin-top: 20px;margin-bottom: 30px;background-position: center;background-size: cover;}
+#heroright p:nth-child(3){margin-bottom: 50px;color: red;}
+
+
